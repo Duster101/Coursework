@@ -14,11 +14,11 @@
         cin>>b;
             if (b==randnumber)
             {
-                cout<<"correct";
+                cout<<"correct the random number was:"<<randnumber;
             }
             else
             {
-                cout<<"Wrong!!";
+                cout<<"Wrong!! the random number was:"<<randnumber;
             }
     }
     if(difficulty==2)
@@ -28,11 +28,11 @@
         cin>>b;
             if (b==randnumber)
             {
-                cout<<"correct";
+                cout<<"correct the random number was:"<<randnumber;
             }
             else
             {
-                cout<<"Wrong!!";
+                cout<<"Wrong!! the random number was:"<<randnumber;
             }
     }
     if(difficulty==3)
@@ -42,11 +42,11 @@
         cin>>b;
             if (b==randnumber)
             {
-                cout<<"correct";
+                cout<<"correct the random number was:"<<randnumber;
             }
             else
             {
-                cout<<"Wrong!!";
+                cout<<"Wrong!! the random number was:"<<randnumber;
             }
     }
     return 0;
