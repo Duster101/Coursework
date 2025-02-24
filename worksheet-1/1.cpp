@@ -8,17 +8,19 @@ int main()
     float a, convertedTemp;
     cout<<"what would you like to convert the tempreature into Celsius or Fahrenheit (C or F):";
     cin>>Temp;
-    cout<<"Enter the tempreature:"<<endl;
-    cin>>a;
     switch (Temp) {
         case 'C':
         case 'c': 
+            cout<<"Enter the tempreature:"<<endl;
+            cin>>a;
             convertedTemp = (a - 32) * 5 / 9; 
             cout << "The temperature in Celsius is: " << convertedTemp << "°C" << endl;
             break;
 
         case 'F':
         case 'f': 
+            cout<<"Enter the tempreature:"<<endl;
+            cin>>a;
             convertedTemp = (a * 9 / 5) + 32; 
             cout << "The temperature in Fahrenheit is: " << convertedTemp << "°F" << endl;
             break;
@@ -27,6 +29,5 @@ int main()
             cout << "Invalid choice! Please enter 'C' or 'F'." << endl;
             break;
     }
-
     return 0;
 }
