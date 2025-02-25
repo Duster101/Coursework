@@ -24,7 +24,7 @@
     if(difficulty==2)
     {
         randnumber=(rand() % 30)+1;
-        cout<<"A random number has been generated from 1 to 30 please guess the number:";
+        cout<<"A random number has been generated from  1 to 30 please guess the number:";
         cin>>b;
             if (b==randnumber)
             {
