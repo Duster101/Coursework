@@ -40,6 +40,7 @@
         randnumber=(rand() % 50)+1;
         cout<<"A random number has been generated from 1 to 50 please guess the number:";
         cin>>b;
+        cout<<b;
             if (b==randnumber)
             {
                 cout<<"correct the random number was:"<<randnumber;

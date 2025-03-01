@@ -3,6 +3,15 @@
 using namespace std;
 int main()
 {
-    int a,b,c,d,e,f,g,n;
-    cout<<"Enter 7 numbers at random:";
-    cin>>a>>b>>c>>d>>e>>f>>g;
+    int n,integers;
+    cout<<"Enter how many integer do you want: ";
+    cin>>n;
+    for (int i=0;1<n;i++)
+    {
+        cout<<"enter "<<n<<" integers:";
+        cin>>integers;
+    }
+    cout<<integers;
+    return 0;
+
+}
